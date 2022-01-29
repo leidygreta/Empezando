@@ -1,0 +1,30 @@
+*---------------------------
+*******UNIMOS MÓDULOS Y CLASIFICAMOS VARIABLE STEM******
+*---------------------------
+
+global ruta "C:\Users\GRETA\GoogleDrive\ASISTENTE\STEM"
+global dos "C:\Users\GRETA\GoogleDrive\ASISTENTE\Do-Files\ENAHO"
+// Creamos las carpetas donde guardaremos todas las modificaciones de las bases
+/*foreach var in BASES MERGE {
+mkdir "$ruta\\`var'"
+}*/
+
+global dta "$ruta\BASES"
+global mrg "$ruta\MERGE" 
+
+//*********** MODULO 300 
+forvalues i=2015/2020{
+global mod "C:\Users\GRETA\GoogleDrive\ASISTENTE\BASES-ENAHO\\`i'\Download"
+use "$mod\enaho01a-`i'-300", clear
+//Variable indentificadora del año
+gen año=`i'
+//Variable de la carrera que estudió
+g carrear=.n if  p301a0==1 // no estudió
+
+replace carrear=.dn if p301a0==2 //no sabe
+
+replace carrear=0 if p301a0==0 //sí estudió
+
+gen area= substr(p301a1,1,2)
+
+}
