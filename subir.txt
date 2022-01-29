@@ -1,0 +1,82 @@
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~
+$ cd desktop
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/desktop
+$ ls
+'AYUDA MICRO 2'/
+ Box.lnk*
+'Excel 2016.lnk'*
+'GAMS IDE 37.lnk'*
+'GAMS Studio 37.lnk'*
+'Google Drive.lnk'*
+'HORARIO 2020-2.xlsx'
+'MATLAB R2020a.lnk'*
+'MIS ASPIRACIONES A FUTURO Y PROYECTO DE VIDA  A LARGO PLAZO.gdoc'
+'Microsoft Teams.lnk'*
+ POSTULACIONES/
+'PowerPoint 2016.lnk'*
+'Practica_califica_4 (1) - Acceso directo.lnk'*
+'Practica_califica_4 (1).pdf'
+'Publisher 2016.lnk'*
+'R i386 4.0.5.lnk'*
+'R x64 4.0.5.lnk'*
+ REG/
+ Slack.lnk*
+'Stata16 - Acceso directo.lnk'*
+ Stata16.zip
+'SurveyCTO Desktop.lnk'*
+ VasquezEnrique2003.pdf
+'Word 2016.lnk'*
+'YouTube Music.lnk'*
+ Zoom.lnk*
+'cumpleaños - Acceso directo.lnk'*
+ cumpleaños.PNG
+ desktop.ini
+'~$HORARIO 2020-2.xlsx'
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/desktop
+$ cd ..
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~
+$ cd documents
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents
+$ ls
+ Construyendo-gobiernos-efectivos.pdf
+ CyberLink/
+ Default.rdp
+'EViews Addins'/
+'EViews Example Files.lnk'*
+'EViews User Objects'/
+ GAMS/
+'JIE_PR1_0094 publicacion oficial-convertido ES.pdf'
+ MATLAB/
+'Mi música'@
+'Mis archivos de origen de datos'/
+'Mis imágenes'@
+'Mis vídeos'@
+'My Digital Editions'/
+ PRUEBA/
+'Plantillas personalizadas de Office'/
+'Por qué constituye un problema económico.docx'
+ R/
+ Zoom/
+ desktop.ini
+'horario disponible.pdf'
+ r5_peru_data_dictionaries.pdf
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents
+$ cd PRUEBA
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents/PRUEBA
+$ mkdir PRUEBA_1
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents/PRUEBA
+$ cd PRUEBA_1
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents/PRUEBA/PRUEBA_1
+$ touch subir.txt
+
+LGGR@DESKTOP-0MHABTV MINGW64 ~/documents/PRUEBA/PRUEBA_1
+$
